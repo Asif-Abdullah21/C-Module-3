@@ -71,18 +71,35 @@
 
 // }
 
+// #include<stdio.h>
+// int main()
+// {
+//     int i;
+//     for(i=1;i<=10;i++)//using break
+//     {
+//         printf("%d\n",i);
+        
+//         if(i==5)
+//         {
+//             break;
+//         }
+//     }
+
+// }
+
+// continnue means(skip) == nicher kaj skip kre porer tay jaua
+
 #include<stdio.h>
 int main()
 {
     int i;
-    for(i=1;i<=10;i++)//i++-> i=i+1
-    {
-        printf("%d\n",i);
-        
+    for(i=1;i<=10;i++)//using break
+    {   
         if(i==5)
         {
-            break;
+            continue;;
         }
+        printf("%d\n",i);
     }
 
 }
