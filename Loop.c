@@ -42,17 +42,31 @@
 // }
 
 
+// #include<stdio.h>
+// int main()
+// {
+//     int i,n;
+//     long long sum=0;//loop chara 1---n prjnto sum (n*(n+1))/2 krlei hoy
+//     scanf("%d",&n);
+//     for(i=1;i<=n;i++)//i++-> i=i+1
+//     {
+//         sum +=i;
+//     }
+
+//     printf("%d\n",sum);
+  
+// }
+
+
 #include<stdio.h>
 int main()
 {
     int i,n;
-    long long sum=0;
     scanf("%d",&n);
     for(i=1;i<=n;i++)//i++-> i=i+1
     {
-        sum +=i;
+        if(i%2==0) printf("%d - Even\n",i);
+        else printf("%d - Odd\n",i);
     }
 
-    printf("%d\n",sum);
-  
 }
