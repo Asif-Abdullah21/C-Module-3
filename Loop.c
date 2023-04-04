@@ -105,18 +105,52 @@
 // }
 //---------------while loop--------------------
 
+// #include<stdio.h>
+// int main()
+// {
+    
+//     int i=1;
+
+//     while(i<=5)
+//     {
+//         printf("%d\n",i);
+
+//         i++;
+//     } 
+
+// }
+
+
+//---------------DO While loop--------------------
+
+// #include<stdio.h>
+// int main()
+// {
+    
+//     int i=1;
+
+//     do
+//     {
+//         printf("%d\n",i);
+
+//         i++;
+//     }while(i<=5);
+
+// }
+
+
 #include<stdio.h>
 int main()
 {
     
-    int i=1;
+    int i=20;// do while vul holeu ekbar output dekhabei
 
-    while(i<=5)
+    do
     {
         printf("%d\n",i);
 
         i++;
-    } 
+    }while(i<=5);
 
 }
 
