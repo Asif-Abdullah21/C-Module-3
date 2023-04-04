@@ -45,7 +45,8 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,sum=0;
+    int i,n;
+    long long sum=0;
     scanf("%d",&n);
     for(i=1;i<=n;i++)//i++-> i=i+1
     {
